@@ -3,3 +3,4 @@ UnityEngine.CoreModule.dll
 VRCMenuUtils.dll
 VRCModLoader.dll
 VRCTools.dll
+0Harmony.dll

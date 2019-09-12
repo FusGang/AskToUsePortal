@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>lib\0Harmony.dll</HintPath>
+    </Reference>
     <Reference Include="Assembly-CSharp">
       <HintPath>lib\Assembly-CSharp.dll</HintPath>
     </Reference>
@@ -49,7 +52,8 @@
     <Reference Include="VRCModLoader">
       <HintPath>lib\VRCModLoader.dll</HintPath>
     </Reference>
-    <Reference Include="VRCTools">
+    <Reference Include="VRCTools, Version=0.6.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>lib\VRCTools.dll</HintPath>
     </Reference>
   </ItemGroup>
